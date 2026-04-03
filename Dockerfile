@@ -1,16 +1,14 @@
-# Use Java 17
+# Use Java 21
 FROM eclipse-temurin:21-jdk-alpine
 
 # Set working directory
 WORKDIR /app
 
-# Copy maven files
-COPY pom.xml .
-COPY mvnw .
-COPY .mvn .mvn
+# Copy all files
+COPY . .
 
-# Copy source code
-COPY src ./src
+# Fix permission on mvnw
+RUN chmod +x mvnw
 
 # Build the app
 RUN ./mvnw clean package -DskipTests
