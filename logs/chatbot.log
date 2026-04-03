@@ -1,0 +1,31 @@
+2026-04-03T17:28:07.511+05:30  INFO 4424 --- [WhatsappChatbotApplication] [main] c.s.W.WhatsappChatbotApplication         : Starting WhatsappChatbotApplication using Java 23.0.1 with PID 4424 (D:\WhatsappChatbotApplication\target\classes started by DELL in D:\WhatsappChatbotApplication)
+2026-04-03T17:28:07.664+05:30  INFO 4424 --- [WhatsappChatbotApplication] [main] c.s.W.WhatsappChatbotApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-04-03T17:28:13.938+05:30  INFO 4424 --- [WhatsappChatbotApplication] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-04-03T17:28:14.038+05:30  INFO 4424 --- [WhatsappChatbotApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-03T17:28:14.041+05:30  INFO 4424 --- [WhatsappChatbotApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03T17:28:14.325+05:30  INFO 4424 --- [WhatsappChatbotApplication] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5984 ms
+2026-04-03T17:28:15.937+05:30  INFO 4424 --- [WhatsappChatbotApplication] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-04-03T17:28:15.955+05:30  INFO 4424 --- [WhatsappChatbotApplication] [main] c.s.W.WhatsappChatbotApplication         : Started WhatsappChatbotApplication in 12.552 seconds (process running for 17.318)
+2026-04-03T17:31:40.732+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-03T17:31:40.736+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-03T17:31:40.753+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2026-04-03T17:32:45.230+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-5] c.s.W.controller.WebhookController       : Webhook has been triggered from: Sahil
+2026-04-03T17:32:45.234+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-5] c.s.W.service.ChatbotService             : Incoming Message From Sahil: hello
+2026-04-03T17:32:45.237+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-5] c.s.W.service.ChatbotService             :  Replying to Sahil : Hello! How can I help you today?
+2026-04-03T17:33:07.870+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-6] c.s.W.controller.WebhookController       : Webhook has been triggered from: Sahil
+2026-04-03T17:33:07.871+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-6] c.s.W.service.ChatbotService             : Incoming Message From Sahil: help
+2026-04-03T17:33:07.871+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-6] c.s.W.service.ChatbotService             :  Replying to Sahil : Type 'Hi' to start or 'Bye' to end the chat.
+2026-04-03T17:33:16.136+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-7] c.s.W.controller.WebhookController       : Webhook has been triggered from: Sahil
+2026-04-03T17:33:16.137+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-7] c.s.W.service.ChatbotService             : Incoming Message From Sahil: bye
+2026-04-03T17:33:16.137+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-7] c.s.W.service.ChatbotService             :  Replying to Sahil : Goodbye! Have a great day!
+2026-04-03T17:34:03.556+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-8] c.s.W.controller.WebhookController       : Webhook has been triggered from: 919876543210
+2026-04-03T17:34:03.558+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-8] c.s.W.service.ChatbotService             : Incoming Message From 919876543210: hi
+2026-04-03T17:34:03.558+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-8] c.s.W.service.ChatbotService             :  Replying to 919876543210 : Hello! How can I help you today?
+2026-04-03T17:35:26.677+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-1] c.s.W.controller.WebhookController       : Webhook has been triggered from: 919876543210
+2026-04-03T17:35:26.678+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-1] c.s.W.service.ChatbotService             : Incoming Message From 919876543210: bye
+2026-04-03T17:35:26.678+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-1] c.s.W.service.ChatbotService             :  Replying to 919876543210 : Goodbye! Have a great day!
+2026-04-03T17:35:46.007+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-2] c.s.W.controller.WebhookController       : Webhook has been triggered from: 919876543210
+2026-04-03T17:35:46.008+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-2] c.s.W.service.ChatbotService             : Incoming Message From 919876543210: help
+2026-04-03T17:35:46.008+05:30  INFO 4424 --- [WhatsappChatbotApplication] [http-nio-8080-exec-2] c.s.W.service.ChatbotService             :  Replying to 919876543210 : Type 'Hi' to start or 'Bye' to end the chat.
+2026-04-03T17:37:25.521+05:30  INFO 4424 --- [WhatsappChatbotApplication] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03T17:37:25.542+05:30  INFO 4424 --- [WhatsappChatbotApplication] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
